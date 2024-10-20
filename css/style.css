@@ -1,0 +1,62 @@
+.bgimg{
+    background-image: url('../Images/bg_img.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 670px;
+    width: 100%;
+    position: relative;
+} 
+.headerset{
+    /* padding-top: 200px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+.headerset h2{
+    font-size: 40px;
+}
+.headerset h1{
+    font-size: 62px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav-item{
+    padding-left: 1.25rem ;
+}
+/* ---- Ours service --- */
+.ourservices{
+    padding: 100px 0px 60px;
+    height: 700px;
+}
+.ourservices h1{
+    font-size:50px;
+    font-weight: bold;
+}
+.rowsetting{
+    margin: 80px 0;
+   
+}
+.imgsetting {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin-bottom: 1.25rem !important; 
+}
+.ourservices i{
+    font-size: 35px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.rowsetting h2{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.rowsetting p{
+    padding: 10px;
+    color: #6c757d !important;
+}
